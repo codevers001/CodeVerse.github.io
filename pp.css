@@ -8,7 +8,7 @@ line-height: 1.6;
 margin: 0;
 padding: 0;
 background-image:linear-gradient(rgba(0, 0, 0, 0.2),
-rgba(0, 0, 0, 0.2)),  url(reddish.JPEG);
+rgba(0, 0, 0, 0.2)),  url(img/reddish.JPEG);
 background-repeat: no-repeat;
 background-attachment: fixed;  
 background-size: cover;
