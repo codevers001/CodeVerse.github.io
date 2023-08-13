@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CODEVERSE</title>
+    <link rel="icon" type="image/x-icon" href="codeverse-logo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="pp.css">
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+    <div class="container-xxl">
+        <!-- Header section -->
+        <div class="row">
+            <div class="col-md">
+                <h1 id="tname"><span id="fname">C</span>ode<span id="fname">V</span>erse</h1><br>
+                <h2>-A Web Development Team-</h2>
+                <div class="who-we-are">
+                    <h1 class="typing-text">  <br><br>Who We Are... </h1>
+                    <p id="apara"><br>Welcome to CodeVerse, a dynamic duo consisting of Dasun and Chamidu, passionate web developers with a capacity for turning code into captivating digital experiences.</p>
+                </div>
+            </div>
+            <div class="col" id="col2">
+                <div class="box">
+                    <div>
+                        <span class="dot" style="background-color: #f72929"></span>
+                        <span class="dot" style="background-color: #fbb920"></span>
+                        <span class="dot" style="background-color: #4bee4d"></span>
+                    </div>
+                    <div id="htmlcode1">
+                        <!-- Code snippet -->
+                        <pre id="htmlcode">
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Welcome to CodeVerse");
+        System.out.println("Project by Dasun and Chamidu");
+    }
+}
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Buttons for scrolling to sections -->
+        <div class="row" id="row2">
+            <div class="col-sm-2">
+                <button class="button" onclick="scrollToSection()">Chamidu</button>
+            </div>
+            <div class="col-sm-2">
+                <button class="button" onclick="scrollToSection2()">Dasun</button>
+            </div>
+        </div>
+
+        <!-- Navigation and sections -->
+        <div class="container">
+            <div class="row">
+                <!-- Navigation sidebar -->
+                <nav class="col-sm-3" id="myScrollspy">
+                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="500">
+                        <li><a id="nav1" href="#section1">Projects</a></li>
+                        <li><a id="nav1"></a></li>
+                        <li><a id="nav1" href="#section2">Skill Progress</a></li>
+                        <li><a id="nav1" href="#section3">Info-Section</a></li>
+                        <li><a id="nav1" href="#section4">Contact Us</a></li>
+                        <br>
+                        <!-- <div class="name1" id="name1">
+                             CODEVERSE logo 
+                            <ul>
+                                <li><span id="fname2">C</span></li>
+                                <li>O</li>
+                                <li>D</li>
+                                <li>E</li>
+                                <li><span id="fname2">V</span></li>
+                                <li>E</li>
+                                <li>R</li>
+                                <li>S</li>
+                                <li>E</li>
+                            </ul>
+                        </div> -->
+                        
+                    </ul>
+                </nav>
+                <!-- Main content sections -->
+                <div class="col-sm-9 start">
+                    <!-- Section 1: Projects -->
+                    <div id="section1">
+                        <div class="projects">
+                            <h2>Projects</h2>
+                            <div class="pcontainer">
+                                <!-- Project 1 -->
+                                <div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
+                                    <div class="portfolio-thumb">
+                                        <img src="html.JPEG" class="fluid-img" alt="portfolio img">
+                                        <div class="portfolio-overlay">
+                                            <h3 class="portfolio-item-title">HTML5</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more project items here -->
+                                <div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
+                                  <div class="portfolio-thumb">
+                                      <img src="java.JPG" class="fluid-img" alt="portfolio img">
+                                      <div class="portfolio-overlay">
+                                          <h3 class="portfolio-item-title">JAVA</h3>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="iso-box wordpress col-md-4 col-sm-4 col-xs-12">
+                                  <div class="portfolio-thumb">
+                                      <img src="python.JPEG" class="fluid-img" alt="portfolio img">
+                                      <div class="portfolio-overlay">
+                                          <h3 class="portfolio-item-title">PYTHON</h3>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- GitHub button -->
+                            <a href="https://github.com/codevers001?tab=repositories">
+                                <button class="button" class="btn btn-primary" type="button" style="width: 100%; font-size: larger;">GitHub</button>
+                            </a>
+                            <br>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Skill Progress -->
+                    <div id="section2">
+                        <div class="wrapper">
+                            <h2 class="how-title"><br>Skill Progress Bar</h2>
+                            <br><br>
+                            <!-- Skill bars -->
+                            <div class="skill">
+                                <p>HTML5</p>
+                                <div class="skill-bar skill1 wow slideInLeft animated">
+                                    <span class="skill-count1">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill">
+                              <p>CSS3</p>
+                              <div class="skill-bar skill2 wow slideInLeft animated">
+                                  <span class="skill-count2">85%</span>
+                              </div>
+                            </div>
+                            <div class="skill">
+                              <p>PYTHON</p>
+                              <div class="skill-bar skill3 wow slideInLeft animated">
+                                  <span class="skill-count3">75%</span>
+                              </div>
+                            </div>
+                            <div class="skill">
+                              <p>WORDPRESS</p>
+                              <div class="skill-bar skill4 wow slideInLeft animated">
+                                  <span class="skill-count4">45%</span>
+                              </div>
+                            </div>
+                            <div class="skill">
+                              <p>BOOTSTRAP</p>
+                              <div class="skill-bar skill7 wow slideInLeft animated">
+                                  <span class="skill-count7">65%</span>
+                              </div>
+                            </div>
+                            <div class="skill">
+                              <p>JAVASCRIPT</p>
+                              <div class="skill-bar skill6 wow slideInLeft animated">
+                                  <span class="skill-count6">80%</span>
+                            </div>
+                            <!-- Add more skill bars here -->
+                        </div>
+                    </div>
+
+                    <!-- Section 3: Info-Section -->
+                    <div id="section3">
+                        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Slide 1: Chamidu -->
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <div id="info-section01" style="padding: 20px;">
+                                                <h2>Meet Chamidu</h2>
+                                                <p class="para1">
+                                                    Python and Java enthusiast, Chamidu adds depth and interactivity to web projects. From dynamic front-end functionalities to powerful back-end solutions,
+                                                    Chamidu's coding prowess transforms ideas into functional reality.
+                                                    His problem-solving skills and commitment to writing clean,
+                                                    efficient code make him an integral part of the team.
+                                                    Chamidu's ability to bridge the gap between design and functionality ensures
+                                                    that every project not only looks great but works seamlessly as well
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 2: Dasun -->
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <div id="info-section2" style="padding: 20px;">
+                                                <h2>Meet Dasun</h2>
+                                                <p class="para1">
+                                                    With a solid foundation in HTML, CSS, Bootstrap and JavaScript, Dasun brings life to websites with his pixel-perfect designs and seamless user experiences. His attention to detail and creative flair shine through in every project he undertakes. Whether it's crafting visually stunning layouts or optimizing websites for speed and responsiveness, Dasun's dedication to delivering excellence is unwavering.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add more slides here -->
+                            </div>
+                            <!-- Carousel navigation buttons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Section 4: Contact Us -->
+                    <h2>Contact Us</h2>
+                    <div id="section4" class="col-xs-12">
+                        <div class="col">
+                            <!-- Contact card 1 -->
+                            <div class="card mb-3" style="border-radius: .5rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 gradient-custom text-center text-white"
+                                         style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                        <img src="chamidu.PNG"
+                                             alt="Avatar" class="img-fluid my-5" style="width: 100px;" />
+                                        <h5>Chamidu Himantha</h5>
+                                        <p>Web Designer</p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body p-4">
+                                            <h4 style="color: black;">Undergraduate -BSc(Hons) Computer Science</h4> <h5 style="color: rgb(116, 116, 116);">University of Westminster</h5>                                            <hr style="color: black;" class="mt-5 mb-35">
+                                            <div class="row pt-1">
+                                                <div class="col-6 mb-3">
+                                                    <h4 style="color: black;">Email</h4>
+                                                    <p class="text-muted">chs.himantha@gmail.com</p>
+                                                </div>
+                                                <div class="col-6 mb-3">
+                                                    <h4 style="color: black;">Phone</h4>
+                                                    <p class="text-muted">+94 70 100 1725</p>
+                                                </div>
+                                            </div>
+                                            <!-- Social media icons -->
+                                            <div class="d-flex justify-content-start">
+                                                <ul class="ul">
+                                                    <li class="li">
+                                                        <a class="facebook" href="https://www.facebook.com/chamidu.himantha.5?mibextid=LQQJ4d">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="twitter" href="https://twitter.com/ChsHimantha">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="instagram" href="https://instagram.com/chamma.h?igshid=OGQ5ZDc2ODk2ZA==">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="google" href="mailto:chs.himantha@gmail.com">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="google" href="https://www.linkedin.com/in/chamidu-himantha-139551233">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Contact card 2 -->
+                            <div class="card mb-3" style="border-radius: .5rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 gradient-custom text-center text-white"
+                                         style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                        <img src="dasun.PNG"
+                                             alt="Avatar" class="img-fluid my-5" style="width: 100px;" />
+                                        <h5>Dasun Sathsara</h5>
+                                        <p>Web Developer</p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body p-4">
+                                            <h4 style="color: black;">Undergraduate -BSc(Hons) Computer Science</h4> <h5 style="color: rgb(116, 116, 116);">University of Westminster</h5>
+                                            <hr style="color: black;" class="mt-5 mb-35">
+                                            <div class="row pt-1">
+                                                <div class="col-6 mb-3">
+                                                    <h4 style="color: black;">Email</h4>
+                                                    <p class="text-muted">dasunpcc50@gmail.com</p>
+                                                </div>
+                                                <div class="col-6 mb-3">
+                                                    <h4 style="color: black;">Phone</h4>
+                                                    <p class="text-muted">+94 75 640 5492</p>
+                                                </div>
+                                            </div>
+                                            <!-- Social media icons -->
+                                            <div class="d-flex justify-content-start">
+                                                <ul class="ul">
+                                                    <li class="li">
+                                                        <a class="facebook" href="https://www.facebook.com/dasun.sathsara.71?mibextid=LQQJ4d">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="twitter" href="#">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="instagram" href="https://instagram.com/__dassa__18_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="google" href="mailto:dasunpcc50@gmail.com">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="li">
+                                                        <a class="google" href="https://www.linkedin.com/in/dasun-herath-885135266">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Back to top button -->
+                    <button onclick="topFunction()" id="myBtn" type="button" class="btn btn-light"><span class="bi bi-arrow-up"></span></button>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: small;">
+                    <a href="#" style="font-size: small; color: #e9e2e2; ">© 2023 CODEVERSE</a> 
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="highlight"></div>
+    <!-- Custom JavaScript and Bootstrap scripts -->
+    <script src="pp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+</body>
+</html>
