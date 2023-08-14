@@ -21,7 +21,9 @@ position: relative;
 
 }
 
-
+#pro{
+  cursor: pointer;
+}
 
 /* Cursor highlight styles */
 .mscursor-cursor {
